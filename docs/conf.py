@@ -17,7 +17,6 @@ import sys
 
 sys.path.insert(0, os.path.abspath('.'))
 
-
 # -- Project information -----------------------------------------------------
 
 project = u'test-helloworld'
@@ -41,6 +40,8 @@ release = u''
 # ones.
 extensions = [ 'helloworld', 'todo' ]
 #extensions = [ 'helloworld'  ]
+
+todo_include_todos = True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
